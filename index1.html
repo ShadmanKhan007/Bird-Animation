@@ -1,0 +1,181 @@
+
+<html>
+<head>
+	<title>shahtech</title>
+</head>
+
+
+<style type="text/css">
+	*
+	{
+		padding: 0;
+		margin: 0;
+		font-family: sans-serif;
+	}
+	header
+	{
+		background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(images/pic14.jpg);
+		height: 100vh;
+		width: 100%;
+		background-size: cover;
+	}
+	.maindiv
+	{
+		height: 65px;
+		width: 1280px;
+		background: rgba(0,0,0,0.2);
+	}
+	ul
+	{
+		float: right;
+		list-style-type: none;
+	}
+	ul li
+	{
+		display: inline-block;
+		margin-top: 20px;
+	}
+	ul li a
+	{
+		text-decoration: none;
+		color: #fff;
+		padding: 5px 10px;
+		font-size: 15px;
+	}
+	ul li a:hover
+	{
+		background-color: green;
+		color: black;
+		border: 1px solid black;
+		border-radius: 50px;
+		transition: 0.5s ease
+	}
+	.logo img
+	{
+		float: left;
+		width: 60px;
+		height: auto;
+		margin-left: 10px;
+	}
+	.heading
+	{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+	}
+	.heading h1
+	{
+		color: white;
+		font-size: 60px;
+	}
+
+	.heading p
+	{
+		color: white;
+		font-size: 20px;
+		margin-left: 40px;
+	}
+
+	.button
+	{
+	  position: absolute;
+	  top: 65%;
+	  left: 50%;
+	  transform: translate(-50%,-50%);	
+	}
+	.btn1
+	{
+		border: 1px solid black;
+		text-decoration: none;
+		padding: 12px 30px;
+		border-radius: 50px;
+		color: white;
+	}
+	.btn2
+	{
+	    border: 1px solid black;
+		text-decoration: none;
+		padding: 12px 30px;
+		border-radius: 50px;
+		color: white;
+	}
+	.btn1:hover
+	{
+		background: green;
+		color: white;
+		transition: 0.5s ease;
+	}
+	.btn2:hover
+	{
+	  background: green;
+	  color: white;	
+	  transition: 0.5s ease;
+	}
+	.birds img
+		{
+          width: 200px;
+          hight: 120px;
+          position: absolute;
+          top: 180px;
+          right: 0px;
+          animation-name: birdgif;
+          animation-duration: 6s;
+          animation-timing-function: linear;
+          animation-iteration-count: infinite;
+		}
+
+		@keyframes birdgif
+		{
+			from{right: 0%;}
+			to{right: 95%;}
+			from{top: 0%;}
+			to{bottom: 40%;}
+		}
+
+	
+
+
+</style>
+
+
+
+<body>
+	<header>
+		<div class="maindiv">
+			<div class="logo">
+				<img src="images/pic20.png">
+			</div>
+			
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About Us</a></li>
+				<li><a href="#">Contact</a></li>
+				<li><a href="#">Help</a></li>
+				<li><a href="#">Services</a></li>
+			</ul>
+		
+		</div>
+
+
+		<div class="birds">
+ 		<img src="images/pic21.gif">
+ 		</div>
+
+
+		<div class="heading">
+		<h1>BEAUTY OF NATURE</h1>
+		<p class="text-uppercase"> this is the best view of sunset at the evening time in the forest.</p>
+		</div>
+
+		<div class="button">
+			<a href="#" class="btn1">Watch More</a>
+			<a href="#" class="btn2">Our Sites</a>			
+		</div>
+		
+
+
+
+	</header>
+</body>
+</html>
